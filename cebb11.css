@@ -1,0 +1,85 @@
+.comments {
+  padding: 100px 80px;
+  display: column;
+  flex: auto;
+}
+
+.section-title {
+  border-bottom: 2px solid #7d8597;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 40px;
+}
+
+input, textarea {
+  width: 75%;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #7d8597;
+}
+
+.contact-submit {
+  background-color: #095bde;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 1px;
+  width: 25%;
+  position: absolute;
+  left: 87px;
+}
+
+.btn:hover {
+  background-color: #01245c;
+  color: #7d8597;
+}
+
+@media (max-width: 1000px) {
+  .comments {
+    width: 100%;
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .contact-submit {
+    position: absolute;
+    left: 28px;
+    width: 157px;
+  }
+
+  input {
+    padding: 10px 20px 10px 20px;
+  }
+
+  textarea {
+    padding: 10px 20px 10px 20px;
+  }
+}
+
+@media (max-width: 675px) {
+  .comments {
+    width: 100%;
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .contact-submit {
+    position: absolute;
+    left: 26px;
+    width: 157px;
+  }
+
+  input {
+    padding: 10px 20px 10px 20px;
+  }
+
+  textarea {
+    padding: 10px 20px 10px 20px;
+  }
+
+}
+
+
+
